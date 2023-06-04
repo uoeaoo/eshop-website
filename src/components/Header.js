@@ -25,7 +25,7 @@ function Header() {
       </div>
 
       <div className="header_nav">
-        <Link tp="/login" style={{ textDecoration:"none" }}>
+        <Link to="/login" style={{ textDecoration:"none" }}>
         <div className="nav_item">
           <span className="nav_itemLineOne">Hello Guest</span>
           <span className="nav_itemLineTwo">Sign In</span>
